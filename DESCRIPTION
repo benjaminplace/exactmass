@@ -1,0 +1,22 @@
+Package: exactmass
+Type: Package
+Title: Exact Mass Calculations for Mass Spectrometry measurements
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Benjamin", "Place",
+      email = "benjamin.place@nist.gov",
+      role = c("aut", "cre")
+    )
+  )
+Description: Simplified calculator for exact mass for
+    applications in mass spectrometry.
+License: License.md
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+Imports:
+    tibble,
+    stringr
+RoxygenNote: 7.3.2
